@@ -20,6 +20,7 @@ public class ChildRepository {
     }
 
     public Child getChildById(String childId){
+        System.out.println("This is the child Id from  the repository class:" + childId);
         return dynamoDBMapper.load(Child.class, childId);
     }
 

@@ -2,11 +2,13 @@ package com.daycare.admin.controller;
 
 import com.daycare.admin.entity.Child;
 import com.daycare.admin.repository.ChildRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class ChildController {
 
+    @Autowired
     private ChildRepository childRepository;
 
     @PostMapping("/child")
@@ -16,6 +18,7 @@ public class ChildController {
 
     @GetMapping("/child/{id}")
     public Child getChild(@PathVariable("id") String childId){
+        System.out.println("This is the child id: " + childId);
         return childRepository.getChildById(childId);
     }
 
