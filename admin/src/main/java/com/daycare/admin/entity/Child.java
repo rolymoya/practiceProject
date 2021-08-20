@@ -24,4 +24,8 @@ public class Child {
 
     @DynamoDBAttribute
     private String lastName;
+
+    @DynamoDBAttribute
+    private String dateOfBirth;
+
 }
