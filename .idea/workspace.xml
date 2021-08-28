@@ -22,14 +22,17 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0d674e-717b-4659-9c2e-5d02d9fb14bf" name="Changes" comment="Added DOB for Child">
+    <list default="true" id="7e0d674e-717b-4659-9c2e-5d02d9fb14bf" name="Changes" comment="Used facebook/create-react-app to create a react front end called admin-portal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629440504143</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Used facebook/create-react-app to create a react front end called admin-portal">
+      <created>1630092117338</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630092117338</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Used facebook/create-react-app to create a react front end called admin-portal">
+      <created>1630092187991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630092187991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +197,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -193,9 +222,14 @@
     <MESSAGE value="-Added Child object&#10;-Added AWS access keys" />
     <MESSAGE value="-Created ChildRepository.java&#10;-Created ChildController.java" />
     <MESSAGE value="Added DOB for Child" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added DOB for Child" />
+    <MESSAGE value="Used facebook/create-react-app to create a react front end called admin-portal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Used facebook/create-react-app to create a react front end called admin-portal" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1630092068504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630092068504" />
     <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1629410246162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -216,10 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="223" key="RollbackChangesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629410214448" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1629440434632">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1630092198865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629440434632" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630092198865" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
