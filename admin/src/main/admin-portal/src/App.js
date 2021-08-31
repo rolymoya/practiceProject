@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from "react";
-import logo from './logo.svg';
 import './App.css';
 import axios from "axios";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 
@@ -17,14 +18,19 @@ useEffect(() => {
   fetchChildren();
 }, []);
 
-  return <h1>Hello</h1>
+  return <h1></h1>
 };
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' />
+      </Switch>
       <Children />
-    </div>
+    </Router>
+    
   );
 }
 

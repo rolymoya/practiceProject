@@ -28,11 +28,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0d674e-717b-4659-9c2e-5d02d9fb14bf" name="Changes" comment="Used facebook/create-react-app to create a react front end called admin-portal">
+    <list default="true" id="7e0d674e-717b-4659-9c2e-5d02d9fb14bf" name="Changes" comment="Added axios and started to connect frontend to backend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630092187991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added axios and started to connect frontend to backend">
+      <created>1630176402060</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630176402060</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,7 +233,8 @@
     <MESSAGE value="-Created ChildRepository.java&#10;-Created ChildController.java" />
     <MESSAGE value="Added DOB for Child" />
     <MESSAGE value="Used facebook/create-react-app to create a react front end called admin-portal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used facebook/create-react-app to create a react front end called admin-portal" />
+    <MESSAGE value="Added axios and started to connect frontend to backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added axios and started to connect frontend to backend" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1630092068504">
@@ -250,10 +261,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="223" key="RollbackChangesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629410214448" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1630092198865">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1630176412023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630092198865" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630176412023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
