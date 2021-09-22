@@ -33,7 +33,7 @@ public class DynamoDBConfig {
                 .withCredentials(
                         new AWSStaticCredentialsProvider(
                                 new BasicAWSCredentials(
-                                        "AKIAWGEADHZIUHIG3KW3",
+                                        "AKIAWGEADHZITUPNRVOW",
                                         ""
                                 )
                         )

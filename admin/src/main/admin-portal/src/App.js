@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 const Children = () => {
 
   const fetchChildren = () => {
-    axios.get().then(res => {
+    axios.get("http://localhost:8083/api/v1/child/getChild/1234").then(res => {
       console.log(res);
     });
   }

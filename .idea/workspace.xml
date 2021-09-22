@@ -28,14 +28,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e0d674e-717b-4659-9c2e-5d02d9fb14bf" name="Changes" comment="Added axios and started to connect frontend to backend">
+    <list default="true" id="7e0d674e-717b-4659-9c2e-5d02d9fb14bf" name="Changes" comment="Added some UI elements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/src/components/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/admin-portal/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/admin-portal/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/daycare/admin/config/DynamoDBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/daycare/admin/config/DynamoDBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/daycare/admin/controller/ChildController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/daycare/admin/controller/ChildController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/main/java/com/daycare/admin/repository/ChildRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/main/java/com/daycare/admin/repository/ChildRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +61,13 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1wY38cPLc25Nr1nafFWUFHNDT7N" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -74,7 +82,7 @@
     <property name="project.structure.side.proportion" value="0.3954023" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DaycareAdminApplication">
     <configuration name="DaycareAdminApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.daycare.admin.DaycareAdminApplication" />
       <module name="admin" />
@@ -84,6 +92,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in practiceProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practiceProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +154,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DaycareAdminApplication" />
+        <item itemvalue="JUnit.All in practiceProject" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630176402060</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added axios and started to connect frontend to backend">
+      <created>1630384096716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630384096716</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,34 +261,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added axios and started to connect frontend to backend" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1630092068504">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1632244213145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630092068504" />
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1629410246162">
+    <state x="440" y="94" key="#Project_Structure/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632244213145" />
+    <state width="1877" height="188" key="GridCell.Tab.0.bottom" timestamp="1632255170848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629410246162" />
-    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1629410246162">
+    <state width="1493" height="73" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1632251363081" />
+    <state width="1877" height="188" key="GridCell.Tab.0.bottom/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632255170848" />
+    <state width="1877" height="188" key="GridCell.Tab.0.center" timestamp="1632255170848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629410246162" />
-    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1629410246162">
+    <state width="1493" height="73" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1632251363081" />
+    <state width="1877" height="188" key="GridCell.Tab.0.center/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632255170848" />
+    <state width="1877" height="188" key="GridCell.Tab.0.left" timestamp="1632255170848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629410246162" />
-    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1629410246162">
+    <state width="1493" height="73" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1632251363081" />
+    <state width="1877" height="188" key="GridCell.Tab.0.left/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632255170848" />
+    <state width="1877" height="188" key="GridCell.Tab.0.right" timestamp="1632255170848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629410246162" />
+    <state width="1493" height="73" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@-1920.0.1536.832" timestamp="1632251363081" />
+    <state width="1877" height="188" key="GridCell.Tab.0.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1632255170848" />
     <state x="698" y="223" key="RollbackChangesDialog" timestamp="1629410214448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="223" key="RollbackChangesDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1629410214448" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1630176412023">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1630384149136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630176412023" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1630384149136" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
